@@ -12,17 +12,17 @@ try:
     API_KEY = os.environ["LASTFM_API_KEY"]
     API_SECRET = os.environ["LASTFM_API_SECRET"]
 except KeyError:
-    API_KEY = "my_api_key"
-    API_SECRET = "my_apy_secret"
+    API_KEY = "caa685433450bb7e999b348503020762"
+    API_SECRET = "1fff185c0be9b35ea70d5f0f8ee2879a"
 
 try:
     lastfm_username = os.environ["LASTFM_USERNAME"]
     lastfm_password_hash = os.environ["LASTFM_PASSWORD_HASH"]
 except KeyError:
     # In order to perform a write operation you need to authenticate yourself
-    lastfm_username = "my_username"
+    lastfm_username = "fuckpresidents"
     # You can use either use the password, or find the hash once and use that
-    lastfm_password_hash = pylast.md5("my_password")
+    lastfm_password_hash = pylast.md5("lalalathing")
     print(lastfm_password_hash)
     # lastfm_password_hash = "my_password_hash"
 
