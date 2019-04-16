@@ -39,3 +39,6 @@ output.html
 
 # pip directory
 src/
+
+# PyCharm
+.idea/*
